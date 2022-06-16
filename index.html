@@ -17,6 +17,8 @@
     </div>
     
     <picture>
+      
+      <!--landscape image, all viewport heights-->
       <source srcset="images/landscape/museum-320_x_180.jpg,
                       images/landscape/museum-640_x_360.jpg,
                       images/landscape/museum-960_x_540.jpg 1x"
@@ -26,8 +28,18 @@
                       images/landscape/museum-960_x_540.jpg, 
                       images/landscape/museum-1440_x_810.jpg 2x"
               media="(max-width: 480px)"/>
+      
+      <source srcset="images/landscape/museum-720_x_405.jpg,
+                      images/landscape/museum-1440_x_810.jpg, 
+                      images/landscape/museum-2160_x_1215.jpg 3x"
+              media="(max-width: 720px)"/>
+
+      <source srcset="images/landscape/museum-960_x_540.jpg,
+                      images/landscape/museum-1920_x_1080.jpg,
+                      images/landscape/museum-2880_x_1621.jpg 3x"
+              media="(max-width: 960px)"/>
       <img 
-        src="images/landscape/museum-960_x_540.jpg"
+        src="images/museum.jpg"
         alt="cool picture of museum">
     
       </picture>
